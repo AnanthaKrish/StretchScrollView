@@ -30,9 +30,9 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.81568627449999997" green="0.0039215686269999999" blue="0.1058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="qzR-Gx-WvO" secondAttribute="trailing" id="1t6-f3-yRo"/>
-                                            <constraint firstItem="qzR-Gx-WvO" firstAttribute="leading" secondItem="amL-RQ-nIe" secondAttribute="leading" id="QoY-Gp-SSd"/>
-                                            <constraint firstAttribute="bottom" secondItem="qzR-Gx-WvO" secondAttribute="bottom" id="evd-wu-fpe"/>
+                                            <constraint firstItem="qzR-Gx-WvO" firstAttribute="leading" secondItem="amL-RQ-nIe" secondAttribute="leading" id="J1c-2J-Ywl"/>
+                                            <constraint firstAttribute="trailing" secondItem="qzR-Gx-WvO" secondAttribute="trailing" id="PFu-gO-Rgl"/>
+                                            <constraint firstAttribute="bottom" secondItem="qzR-Gx-WvO" secondAttribute="bottom" id="o3f-96-Afq"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xq4-YN-WRL">
@@ -43,15 +43,14 @@
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="Xq4-YN-WRL" firstAttribute="width" secondItem="smO-6U-CxX" secondAttribute="width" id="Ich-Dt-0gA"/>
-                                    <constraint firstItem="Xq4-YN-WRL" firstAttribute="leading" secondItem="smO-6U-CxX" secondAttribute="leading" id="PJC-7Q-Hhm"/>
-                                    <constraint firstAttribute="trailing" secondItem="Xq4-YN-WRL" secondAttribute="trailing" id="Tus-ob-kJh"/>
-                                    <constraint firstItem="Xq4-YN-WRL" firstAttribute="top" secondItem="smO-6U-CxX" secondAttribute="top" constant="280" id="aAn-h9-6og"/>
-                                    <constraint firstAttribute="trailing" secondItem="amL-RQ-nIe" secondAttribute="trailing" id="cIo-lj-gng"/>
-                                    <constraint firstItem="Xq4-YN-WRL" firstAttribute="top" secondItem="amL-RQ-nIe" secondAttribute="bottom" id="irM-0b-OJ7"/>
-                                    <constraint firstAttribute="bottom" secondItem="Xq4-YN-WRL" secondAttribute="bottom" id="kRR-rT-YQN"/>
-                                    <constraint firstItem="amL-RQ-nIe" firstAttribute="leading" secondItem="smO-6U-CxX" secondAttribute="leading" id="kcg-MV-mQs"/>
-                                    <constraint firstItem="amL-RQ-nIe" firstAttribute="top" secondItem="smO-6U-CxX" secondAttribute="top" priority="900" id="pC7-YM-yrW"/>
+                                    <constraint firstItem="Xq4-YN-WRL" firstAttribute="top" secondItem="smO-6U-CxX" secondAttribute="top" constant="280" id="2qB-xb-ak6"/>
+                                    <constraint firstItem="amL-RQ-nIe" firstAttribute="leading" secondItem="smO-6U-CxX" secondAttribute="leading" id="4Vd-M0-YQP"/>
+                                    <constraint firstItem="amL-RQ-nIe" firstAttribute="top" secondItem="smO-6U-CxX" secondAttribute="top" id="8tB-UT-h97"/>
+                                    <constraint firstItem="Xq4-YN-WRL" firstAttribute="top" secondItem="amL-RQ-nIe" secondAttribute="bottom" id="9bA-CE-tix"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xq4-YN-WRL" secondAttribute="bottom" id="CyX-C5-qdO"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xq4-YN-WRL" secondAttribute="trailing" id="Ef6-KR-9hp"/>
+                                    <constraint firstItem="Xq4-YN-WRL" firstAttribute="leading" secondItem="smO-6U-CxX" secondAttribute="leading" id="gQU-Pa-vva"/>
+                                    <constraint firstAttribute="trailing" secondItem="amL-RQ-nIe" secondAttribute="trailing" id="nxm-45-jia"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="7aP-Lg-NUE"/>
@@ -60,11 +59,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="smO-6U-CxX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5mV-vy-Z17"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="qzR-Gx-WvO" secondAttribute="top" constant="44" id="HLl-B6-3Oc"/>
-                            <constraint firstItem="smO-6U-CxX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QCE-uE-9kV"/>
-                            <constraint firstAttribute="bottom" secondItem="smO-6U-CxX" secondAttribute="bottom" id="dlx-tl-7BB"/>
-                            <constraint firstItem="smO-6U-CxX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mlv-a0-LD0"/>
+                            <constraint firstAttribute="bottom" secondItem="smO-6U-CxX" secondAttribute="bottom" id="5R9-Gy-nmv"/>
+                            <constraint firstItem="smO-6U-CxX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HUi-C8-yEp"/>
+                            <constraint firstItem="smO-6U-CxX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IGl-AX-lXZ"/>
+                            <constraint firstItem="Xq4-YN-WRL" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="RtN-Az-AiA"/>
+                            <constraint firstItem="smO-6U-CxX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mHa-Ey-Ybm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="qzR-Gx-WvO" secondAttribute="top" priority="900" constant="44" id="p83-Qa-jCt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
